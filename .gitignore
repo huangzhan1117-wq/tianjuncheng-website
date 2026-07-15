@@ -4,7 +4,7 @@ tools/
 share/
 .agents/
 script.js
-styles.css
+/styles.css
 *.zip
 *.log
 海南田俊程官网-单文件预览.html
