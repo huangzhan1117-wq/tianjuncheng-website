@@ -17,7 +17,7 @@ import projectDaqingPhoto from "../assets/project-daqing-photo.jpg";
 import projectJinjiangPhoto from "../assets/project-jinjiang-photo.jpg";
 
 const companyName = "海南田俊程机械工程有限公司";
-const phone = "18907512093";
+const phone = "13398926188";
 const email = "13876625259@163.com";
 const address = "澄迈县金江镇文明路兴吉巷24号";
 
