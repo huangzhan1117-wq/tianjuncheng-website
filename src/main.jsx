@@ -3,18 +3,16 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 import heroMachine from "../assets/hero-machine.png";
-import equip20t from "../assets/equip-20t.webp";
-import equip25t from "../assets/equip-25t.webp";
-import equip50t from "../assets/equip-50t.webp";
-import equip70t from "../assets/equip-70t.webp";
+import equipCrane from "../assets/equip-crane-shared.webp";
 import equipAerial from "../assets/equip-aerial.webp";
 import equipExcavator from "../assets/equip-excavator.webp";
 import equipTruckCrane from "../assets/equip-truck-crane.webp";
 import equipFlatbed from "../assets/equip-flatbed.webp";
+import equipPump from "../assets/equip-pump.webp";
 import serviceMap from "../assets/service-map.png";
-import projectSite from "../assets/project-site.png";
-import projectDaqingPhoto from "../assets/project-daqing-photo.jpg";
-import projectJinjiangPhoto from "../assets/project-jinjiang-photo.jpg";
+import projectSite from "../assets/project-site-hd.webp";
+import projectDaqingPhoto from "../assets/project-daqing-hd.webp";
+import projectJinjiangPhoto from "../assets/project-jinjiang-hd.webp";
 
 const companyName = "海南田俊程机械工程有限公司";
 const phone = "18876018198";
@@ -31,14 +29,14 @@ const navItems = [
 ];
 
 const equipment = [
-  [equip20t, "20吨汽车吊", "灵活高效，适用于中小型吊装作业。"],
-  [equip25t, "25吨汽车吊", "性能稳定，满足多场景施工需求。"],
-  [equip50t, "50吨汽车吊", "强劲起重能力，胜任大型工程项目。"],
-  [equip70t, "70吨汽车吊", "适用于重型设备吊装与高强度作业。"],
+  [equipCrane, "25吨汽车吊", "性能稳定，满足多场景施工需求。"],
+  [equipCrane, "50吨汽车吊", "强劲起重能力，胜任大型工程项目。"],
+  [equipCrane, "70吨汽车吊", "适用于重型设备吊装与高强度作业。"],
   [equipAerial, "高空作业车", "高空作业更安全，效率更高。"],
   [equipExcavator, "挖掘机", "运转有力，适配土方施工。"],
   [equipTruckCrane, "随车吊", "灵活便捷，吊运一体。"],
   [equipFlatbed, "平板运输车", "承载力强，运输可靠。"],
+  [equipPump, "泵车", "输送稳定高效，适配主体施工。"],
 ];
 
 const servicePoints = [

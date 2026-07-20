@@ -513,9 +513,10 @@ svg {
 }
 
 .equipment-card:hover {
+  z-index: 2;
   border-color: rgba(7, 150, 168, 0.32);
-  box-shadow: 0 20px 42px rgba(24, 49, 59, 0.15);
-  transform: translateY(-8px);
+  box-shadow: 0 28px 56px rgba(24, 49, 59, 0.18);
+  animation: equipmentFloat 1.45s ease-in-out infinite alternate;
 }
 
 .equipment-card:hover::after {
@@ -523,12 +524,12 @@ svg {
 }
 
 .equipment-card img {
+  display: block;
   width: 100%;
   aspect-ratio: 5 / 3;
   height: auto;
   object-fit: contain;
-  padding: 6px;
-  background: linear-gradient(180deg, #edf8fc 0%, #f8fbfa 58%, #e1e9dd 100%);
+  background: #fff;
   border-radius: 6px;
   transition: transform 0.42s ease;
 }
@@ -1029,6 +1030,15 @@ svg {
   }
 }
 
+@keyframes equipmentFloat {
+  from {
+    transform: translateY(-10px) scale(1.008);
+  }
+  to {
+    transform: translateY(-18px) scale(1.012);
+  }
+}
+
 @keyframes mapSettle {
   from {
     filter: drop-shadow(0 10px 12px rgba(50, 126, 155, 0.12));
@@ -1290,8 +1300,7 @@ svg {
   }
 
   .equipment-card img {
-    aspect-ratio: 16 / 9;
-    padding: 8px;
+    aspect-ratio: 5 / 3;
   }
 
   .strength-block,
