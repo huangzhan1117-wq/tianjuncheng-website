@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://huangzhan1117-wq.github.io/tianjuncheng-website/sitemap.xml
